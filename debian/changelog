@@ -1,7 +1,12 @@
 konsole (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
   * Merged with Debian 
+
+  [ Scarlett Clark ]
+  * Fix copyright file with a brief para stating no copyright claim
+    in public-domain entry to make lintain happy. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 18:04:20 +0000
 

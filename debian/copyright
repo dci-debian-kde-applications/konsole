@@ -45,6 +45,7 @@ Files: src/konsoleprofile
        tests/signaltests.c
 Copyright: no copyright claimed
 License: public-domain
+ No copyright claimed by author.
 
 Files: src/ZModemDialog.cpp
        src/ZModemDialog.h
