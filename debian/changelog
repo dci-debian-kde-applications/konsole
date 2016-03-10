@@ -1,4 +1,4 @@
-konsole (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+konsole (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -9,7 +9,7 @@ konsole (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
     in public-domain entry to make lintain happy. 
   * Fix merger. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 18:04:20 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:58:11 +0100
 
 konsole (4:15.12.1-1) experimental; urgency=medium
 
