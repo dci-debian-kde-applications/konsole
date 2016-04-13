@@ -1,8 +1,17 @@
-Index: konsole/src/main.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:17:59 +0200
+Subject: debian-T-addition
+
 ===================================================================
---- konsole.orig/src/main.cpp	2015-05-27 18:02:19.804651972 +0200
-+++ konsole/src/main.cpp	2015-05-27 18:02:19.800652134 +0200
-@@ -197,6 +197,7 @@
+---
+ src/main.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/main.cpp b/src/main.cpp
+index 5e1420e..b1792d5 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -232,6 +232,7 @@ void fillCommandLineOptions(KCmdLineOptions& options)
                        " (for use with -p)"));
      options.add("p <property=value>",
                  ki18nc("@info:shell", "Change the value of a profile property."));
