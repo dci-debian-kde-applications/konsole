@@ -1,11 +1,12 @@
-konsole (4:15.12.3-1~1.gbp19327d) UNRELEASED; urgency=medium
+konsole (4:16.04.0-1~1.gbpe8adef) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @19327d964aea6a123ae93fac9325dcda681a0653 **
+  ** SNAPSHOT build @e8adef0eb5859a7091b558af4bd8c19bcfbd0e8c **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:18:01 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:17:15 +0200
 
 konsole (4:15.12.1-1) experimental; urgency=medium
 
