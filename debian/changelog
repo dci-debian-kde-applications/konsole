@@ -1,11 +1,22 @@
-konsole (4:16.04.0-1~1.gbpe8adef) UNRELEASED; urgency=medium
+konsole (4:16.04.0-1~2.gbp58f782) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @58f782386a855c12fe2ce524199cbb6434ec383e **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @e8adef0eb5859a7091b558af4bd8c19bcfbd0e8c **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:17:15 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Hacky use of xephyr
+  * Ignore XDG_RUNTIME_DIR not set stderr messages running the tests
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:17:19 +0200
 
 konsole (4:15.12.1-1) experimental; urgency=medium
 
