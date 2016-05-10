@@ -1,6 +1,6 @@
-konsole (4:16.04.0-1~3.gbpb57891) UNRELEASED; urgency=medium
+konsole (4:16.04.1-1~1.gbp4282f9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b57891976df7ec88f58da5f23a0949e40dfbb7b2 **
+  ** SNAPSHOT build @4282f92eac6797d40e1ba5dbb24b25a4c590c73d **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -16,8 +16,9 @@ konsole (4:16.04.0-1~3.gbpb57891) UNRELEASED; urgency=medium
   * Update testsuite
   * Update testsuite dependencies
   * Add new kdeinit lintian-override
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 10 May 2016 15:17:16 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:17:15 +0200
 
 konsole (4:15.12.1-1) experimental; urgency=medium
 
