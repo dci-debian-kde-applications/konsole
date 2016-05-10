@@ -3,8 +3,6 @@ konsole (4:16.04.0-1~2.gbp58f782) UNRELEASED; urgency=medium
   ** SNAPSHOT build @58f782386a855c12fe2ce524199cbb6434ec383e **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @e8adef0eb5859a7091b558af4bd8c19bcfbd0e8c **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
