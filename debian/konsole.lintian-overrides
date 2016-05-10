@@ -3,3 +3,4 @@ konsole: shlib-without-versioned-soname usr/lib/*/libkdeinit5_konsole.so libkdei
 konsole: binary-without-manpage usr/bin/konsole
 konsole: binary-without-manpage usr/bin/konsoleprofile
 konsole: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_konsole.so
+konsole: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_konsole.so
