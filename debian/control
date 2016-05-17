@@ -54,8 +54,8 @@ Description: X terminal emulator
 Package: konsole-kpart
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: konsole (<< 16.04.0-0neon+16.04+build4~)
-Replaces: konsole (<< 16.04.0-0neon+16.04+build4~)
+Breaks: konsole (<< ${binary:Version}~ciBuild)
+Replaces: konsole (<< ${binary:Version}~ciBuild)
 Description: Konsole plugin for Qt applications
  Konsole is a terminal emulator built on the KDE Platform. It can contain
  multiple terminal sessions inside one window using detachable tabs.
