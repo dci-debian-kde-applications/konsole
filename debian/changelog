@@ -1,10 +1,8 @@
-konsole (4:16.04.2-1~1.gbpe68766) UNRELEASED; urgency=medium
+konsole (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e687667c60424c5ac8bf2f3cb1c11ab4b87c8c97 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:17:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:43:17 +0200
 
 konsole (4:16.04.1-1) unstable; urgency=medium
 
