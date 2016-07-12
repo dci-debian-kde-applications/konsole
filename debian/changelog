@@ -1,3 +1,11 @@
+konsole (4:16.04.3-1~1.gbp386775) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @38677584db655103ba4c068cf03ca554f3a1133b **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:17:17 +0200
+
 konsole (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
