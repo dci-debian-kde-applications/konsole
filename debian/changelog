@@ -1,10 +1,16 @@
-konsole (4:16.04.3-1~1.gbp386775) UNRELEASED; urgency=medium
+konsole (4:16.08.0-1~1.gbpc6f4c5) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @c6f4c5119ead05e745356fdbfe0de8cffd638702 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @38677584db655103ba4c068cf03ca554f3a1133b **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:17:17 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 05:17:09 +0200
 
 konsole (4:16.04.2-1) unstable; urgency=medium
 
