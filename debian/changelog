@@ -1,6 +1,6 @@
-konsole (4:16.08.1-1~1.gbpe97e18) UNRELEASED; urgency=medium
+konsole (4:16.08.2-1~1.gbpb513ec) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e97e189d8554ace0084739d5cb3aa04e174e0ed5 **
+  ** SNAPSHOT build @b513ece3be041a8f9b856ace3b1bc69ce02d078c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @38677584db655103ba4c068cf03ca554f3a1133b **
@@ -12,8 +12,9 @@ konsole (4:16.08.1-1~1.gbpe97e18) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Drop patch: debian-T-addition.diff, applied upstream.
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:17:38 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 23:17:25 +0200
 
 konsole (4:16.04.2-1) unstable; urgency=medium
 
