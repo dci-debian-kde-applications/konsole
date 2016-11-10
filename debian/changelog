@@ -1,3 +1,11 @@
+konsole (4:16.08.3-1~1.gbp7df3d2) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7df3d204d50811f19151a2198a62d8784b91cc5b **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:17:27 +0100
+
 konsole (4:16.08.2-2) unstable; urgency=medium
 
   * Add upstream patch: Fix-reparsing-of-command-line-arguments.patch
