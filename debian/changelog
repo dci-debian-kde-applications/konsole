@@ -1,6 +1,4 @@
-konsole (4:16.12.0-1~3.gbp508955) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @508955c21c086c4893c8a68bd87c704a1177e00f **
+konsole (4:16.12.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (16.12.0) (Closes: 845578, 844380)
@@ -9,9 +7,8 @@ konsole (4:16.12.0-1~3.gbp508955) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Refresh patches
-  * Update changelog for 4:16.12.0-1~2.gbp1a75d0 release
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 16 Dec 2016 05:17:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Dec 2016 18:48:09 +0100
 
 konsole (4:16.08.3-1) unstable; urgency=medium
 
