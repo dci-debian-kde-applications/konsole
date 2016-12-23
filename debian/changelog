@@ -3,9 +3,7 @@ konsole (4:16.12.0-1~2.gbp1a75d0) UNRELEASED; urgency=medium
   ** SNAPSHOT build @1a75d027f68d25edfd3189e0d0b0dfb7a577a8ec **
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @e7133c2800d1c91febddb2539f715de3673a97ef **
-
-  * UNRELEASED
+  * New upstream release (16.12.0).
 
   [ Automatic packaging ]
   * Refresh patches
