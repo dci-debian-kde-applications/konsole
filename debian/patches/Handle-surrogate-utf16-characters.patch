@@ -1,0 +1,48 @@
+From: "Martin T. H. Sandsmark" <martin.sandsmark@kde.org>
+Date: Sun, 15 Jan 2017 16:48:24 +0100
+Subject: Handle surrogate utf16 characters
+
+For our own sanity we (falsely) assume that all surrogate characters are
+double width, otherwise we have to go back and reflow the line.
+
+This makes it work better with emojis in vim at least.
+
+REVIEW: 129841
+---
+ src/Screen.cpp          | 2 +-
+ src/konsole_wcwidth.cpp | 8 +++++++-
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+diff --git a/src/Screen.cpp b/src/Screen.cpp
+index d674017b..5438e83b 100644
+--- a/src/Screen.cpp
++++ b/src/Screen.cpp
+@@ -636,7 +636,7 @@ void Screen::displayCharacter(unsigned short c)
+         return;
+     } else if (w == 0) {
+         const QChar::Category category = QChar(c).category();
+-        if (category != QChar::Mark_NonSpacing && category != QChar::Letter_Other) {
++        if (category != QChar::Mark_NonSpacing && category != QChar::Letter_Other && !QChar::isLowSurrogate(c)) {
+             return;
+         }
+         // Find previous "real character" to try to combine with
+diff --git a/src/konsole_wcwidth.cpp b/src/konsole_wcwidth.cpp
+index 39c23076..212bc1b5 100644
+--- a/src/konsole_wcwidth.cpp
++++ b/src/konsole_wcwidth.cpp
+@@ -186,8 +186,14 @@ int KONSOLEPRIVATE_EXPORT konsole_wcwidth(quint16 oucs)
+     };
+ 
+     /* test for 8-bit control characters */
+-    if (ucs == 0)
++    if (ucs == 0 || QChar::isLowSurrogate(ucs))
+         return 0;
++
++    /* Always assume double width, otherwise we have to go back and move characters */
++    if (QChar::isHighSurrogate(ucs)) {
++        return 2;
++    }
++
+     if (ucs < 32 || (ucs >= 0x7f && ucs < 0xa0))
+         return -1;
+ 
