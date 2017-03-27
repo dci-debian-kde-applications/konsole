@@ -5,3 +5,4 @@ Fix-build.patch
 TerminalDisplay-Abort-painting-invalid-rect.patch
 Screen-Fix-potential-crash-when-ExtendedCharTable-tries-t.patch
 Handle-surrogate-utf16-characters.patch
+Fix-word-boundaries-with-combining-characters.patch

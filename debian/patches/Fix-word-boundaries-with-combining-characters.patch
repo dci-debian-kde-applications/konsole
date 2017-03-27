@@ -1,0 +1,32 @@
+From: "Martin T. H. Sandsmark" <martin.sandsmark@kde.org>
+Date: Sun, 15 Jan 2017 16:38:55 +0100
+Subject: Fix word boundaries with combining characters
+
+Without this it doesn't correctly detect word boundaries e. g. in
+arabic.
+
+REVIEW: 129840
+---
+ src/TerminalDisplay.cpp | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+diff --git a/src/TerminalDisplay.cpp b/src/TerminalDisplay.cpp
+index f8263499..74be5858 100644
+--- a/src/TerminalDisplay.cpp
++++ b/src/TerminalDisplay.cpp
+@@ -2794,10 +2794,11 @@ QChar TerminalDisplay::charClass(const Character& ch) const
+             const QString s = QString::fromUtf16(chars, extendedCharLength);
+             if (_wordCharacters.contains(s, Qt::CaseInsensitive))
+                 return 'a';
+-            bool allLetterOrNumber = true;
+-            for (int i = 0; allLetterOrNumber && i < s.size(); ++i)
+-                allLetterOrNumber = s.at(i).isLetterOrNumber();
+-            return allLetterOrNumber ? 'a' : s.at(0);
++            bool letterOrNumber = false;
++            for (int i = 0; !letterOrNumber && i < s.size(); ++i) {
++                letterOrNumber = s.at(i).isLetterOrNumber();
++            }
++            return letterOrNumber ? 'a' : s.at(0);
+         }
+         return 0;
+     } else {
