@@ -3,3 +3,4 @@ upstream_render_text_at_primary_fonts_baseline.patch
 Add-nofork-as-compatibility-alias-for-separate.patch
 Fix-build.patch
 TerminalDisplay-Abort-painting-invalid-rect.patch
+Screen-Fix-potential-crash-when-ExtendedCharTable-tries-t.patch
