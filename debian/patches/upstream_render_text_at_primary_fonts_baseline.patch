@@ -1,3 +1,7 @@
+From: Christoph Feck <cfeck@kde.org>
+Date: Mon, 27 Mar 2017 11:05:41 +0200
+Subject: upstream_render_text_at_primary_fonts_baseline
+
 commit 7e2f9d839f5af447a0fc7fd178dd5d8f58e489bb
 Author: Christoph Feck <cfeck@kde.org>
 Date:   Wed Dec 7 20:12:59 2016 +0100
@@ -15,10 +19,15 @@ Date:   Wed Dec 7 20:12:59 2016 +0100
     
     REVIEW: 129281
     CCBUG: 371687
+---
+ src/TerminalDisplay.cpp | 12 ++----------
+ 1 file changed, 2 insertions(+), 10 deletions(-)
 
+diff --git a/src/TerminalDisplay.cpp b/src/TerminalDisplay.cpp
+index dd911779..1d70d7c2 100644
 --- a/src/TerminalDisplay.cpp
 +++ b/src/TerminalDisplay.cpp
-@@ -855,18 +855,10 @@
+@@ -855,18 +855,10 @@ void TerminalDisplay::drawCharacters(QPainter& painter,
          // This still allows RTL characters to be rendered in the RTL way.
          painter.setLayoutDirection(Qt::LeftToRight);
  

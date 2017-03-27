@@ -11,7 +11,7 @@ command to be executed.
  3 files changed, 35 insertions(+), 16 deletions(-)
 
 diff --git a/src/Application.cpp b/src/Application.cpp
-index 5b352ec..12ffe23 100644
+index 5b352ec9..12ffe230 100644
 --- a/src/Application.cpp
 +++ b/src/Application.cpp
 @@ -45,7 +45,7 @@
@@ -85,7 +85,7 @@ index 5b352ec..12ffe23 100644
      QCommandLineParser *parser = new QCommandLineParser;
      populateCommandLineParser(parser);
 diff --git a/src/Application.h b/src/Application.h
-index 8987d78..8ec7ab6 100644
+index 8987d789..8ec7ab6a 100644
 --- a/src/Application.h
 +++ b/src/Application.h
 @@ -50,9 +50,10 @@ class Application : public QObject
@@ -109,7 +109,7 @@ index 8987d78..8ec7ab6 100644
  }
  #endif  // APPLICATION_H
 diff --git a/src/main.cpp b/src/main.cpp
-index 26d3da9..e77597a 100644
+index 26d3da99..e77597ad 100644
 --- a/src/main.cpp
 +++ b/src/main.cpp
 @@ -112,9 +112,13 @@ extern "C" int Q_DECL_EXPORT kdemain(int argc, char* argv[])
