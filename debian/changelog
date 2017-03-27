@@ -1,6 +1,19 @@
 konsole (4:16.12.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Add new upstream patch:
+    upstream_render_text_at_primary_fonts_baseline.patch (Closes: 858584)
+  * Add upstream patch: Add-nofork-as-compatibility-alias-for-separate.patch
+  * Add upstream patch: Fix-build.patch
+  * Add upstream patch: TerminalDisplay-Abort-painting-invalid-rect.patch
+  * Add upstream patch:
+    Screen-Fix-potential-crash-when-ExtendedCharTable-tries-t.patch
+  * Add upstream patch: Handle-surrogate-utf16-characters.patch
+  * Add upstream patch: Fix-word-boundaries-with-combining-characters.patch
+  * Add upstream patch:
+    Don-t-include-newlines-in-selection-if-trimming-is-on.patch
+  * Add upstream patch: Limit-ourselves-to-3-combining-characters.patch
+  * Add upstream patch: Allow-ANSI-string-terminator-to-work.patch
+  * Add upstream patch: Fix-opening-of-new-tabs-with-multiple-processes.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 28 Jan 2017 16:40:23 +0100
 
