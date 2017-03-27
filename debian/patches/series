@@ -8,3 +8,4 @@ Handle-surrogate-utf16-characters.patch
 Fix-word-boundaries-with-combining-characters.patch
 Don-t-include-newlines-in-selection-if-trimming-is-on.patch
 Limit-ourselves-to-3-combining-characters.patch
+Fix-opening-of-new-tabs-with-multiple-processes.patch
