@@ -12,3 +12,4 @@ Fix-opening-of-new-tabs-with-multiple-processes.patch
 Allow-ANSI-string-terminator-to-work.patch
 Update-release-date-scripting-and-command-line-help.patch
 Add-check-for-valid-container-possible-crash-fix.patch
+Correct-ANSI-string-terminator.patch

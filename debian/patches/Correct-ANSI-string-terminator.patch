@@ -1,0 +1,28 @@
+From: Kurt Hindenburg <kurt.hindenburg@gmail.com>
+Date: Mon, 24 Apr 2017 23:28:01 -0400
+Subject: Correct ANSI string terminator
+
+Use the correct decimal value 27
+
+In bash, PS1="\e]0;<title>\e\\" or PS1="\e]0;<title>\033"
+
+BUG: 231405
+
+Differential Revision: https://phabricator.kde.org/D5576
+---
+ src/Vt102Emulation.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Vt102Emulation.cpp b/src/Vt102Emulation.cpp
+index 1bde8469..cac34ec3 100644
+--- a/src/Vt102Emulation.cpp
++++ b/src/Vt102Emulation.cpp
+@@ -280,7 +280,7 @@ void Vt102Emulation::initTokenizer()
+ #define epe( )     (p >=  3  && s[2] == '!')
+ #define egt( )     (p >=  3  && s[2] == '>')
+ #define Xpe        (tokenBufferPos >= 2 && tokenBuffer[1] == ']')
+-#define Xte        (Xpe      && (cc ==  7 || cc == 33))
++#define Xte        (Xpe      && (cc ==  7 || cc == 27))
+ #define ces(C)     (cc < 256 && (charClass[cc] & (C)) == (C) && !Xte)
+ 
+ #define CNTL(c) ((c)-'@')
