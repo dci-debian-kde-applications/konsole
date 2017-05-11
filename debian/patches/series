@@ -10,3 +10,4 @@ Don-t-include-newlines-in-selection-if-trimming-is-on.patch
 Limit-ourselves-to-3-combining-characters.patch
 Fix-opening-of-new-tabs-with-multiple-processes.patch
 Allow-ANSI-string-terminator-to-work.patch
+Update-release-date-scripting-and-command-line-help.patch
