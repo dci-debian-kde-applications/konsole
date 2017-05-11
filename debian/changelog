@@ -1,6 +1,17 @@
 konsole (4:16.12.0-4~) UNRELEASED; urgency=medium
 
-  * 
+  * Add patch: Update-release-date-scripting-and-command-line-help.patch.
+    Cherry-Picked from "Update release/date, scripting and command line
+    help" (792eda5).
+    Update manpage. KDE#373905
+  * Add patch: Add-check-for-valid-container-possible-crash-fix.patch.
+    Cherry-picked from "Add check for valid container (possible crash fix)"
+    (a2b6a81)
+    Related to KDE#375540
+  * Add patch: Correct-ANSI-string-terminator.patch.
+    Cherry-picked from "Correct ANSI string terminator" (7a41b73)
+    Fixes Allow-ANSI-string-terminator-to-work.patch, \e is 033 which is 27
+    decimal.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 11 May 2017 14:38:39 +0200
 
