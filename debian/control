@@ -43,6 +43,8 @@ Architecture: any
 Depends: konsole-kpart (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Provides: x-terminal-emulator
 Description: X terminal emulator
  Konsole is a terminal emulator built on the KDE Platform. It can contain
