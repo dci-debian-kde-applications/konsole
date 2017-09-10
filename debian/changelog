@@ -1,3 +1,9 @@
+konsole (4:17.08.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Sep 2017 10:54:51 +0200
+
 konsole (4:17.08.1-0neon) xenial; urgency=medium
 
   * New release
@@ -9,12 +15,6 @@ konsole (4:17.08.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:38:39 +0000
-
-konsole (4:17.04.3-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (17.04.3).
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Aug 2017 02:16:06 +0200
 
 konsole (4:17.04.3-0neon) xenial; urgency=medium
 
