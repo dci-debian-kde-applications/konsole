@@ -1,6 +1,7 @@
-konsole (4:17.08.3-0r1) UNRELEASED; urgency=medium
+konsole (4:17.08.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
+  * Upload to unstable.
   * New upstream release.
   * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
     drop translations.
@@ -12,7 +13,7 @@ konsole (4:17.08.3-0r1) UNRELEASED; urgency=medium
     - add libkf5doctools-dev instead
   * Bump the konsole breaks/replaces in konsole-kpart to this version.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 13:21:43 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 02 Dec 2017 14:28:38 +0100
 
 konsole (4:17.08.1-1) experimental; urgency=medium
 
