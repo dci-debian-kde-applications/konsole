@@ -7,6 +7,9 @@ konsole (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
   * Drop debian/meta/cmake-ignore, not useful.
+  * Remove unused build dependencies: kdoctools-dev, kio-dev,
+    libkf5kdelibs4support-dev, and qtscript5-dev
+    - add libkf5doctools-dev instead
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 13:21:43 +0100
 
